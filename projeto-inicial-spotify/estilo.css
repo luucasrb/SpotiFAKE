@@ -1,0 +1,105 @@
+html,body, .capa{
+    height: 100%;
+}
+body{
+    background: url(imagens/capa.png), 
+                url(imagens/ruido.png),
+                linear-gradient(50deg,gray,black);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparent{
+    padding: 15px 0px;
+    border: none;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    margin: 16px 10px;
+    background-color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgb(158, 50, 50);
+    border: 1px solid rgb(158, 50, 50);
+    margin: -1px;
+}
+
+.capa{
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 10px;
+}
+
+.btn-red{
+    background-color: rgb(158, 50, 50);
+}
+.btn-red:hover{
+    color:white;
+    background-color: black;
+    transition: 3s;
+}
+
+.btn-white{
+    border: 2px solid white;
+}
+.btn-white:hover{
+    background-color: white;
+    color:black;
+    transition: 0.6s;
+}
+#servicos{
+    color: white;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+}
