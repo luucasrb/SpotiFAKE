@@ -7,6 +7,7 @@ body{
                 linear-gradient(50deg,gray,black);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 .img-logo{
     height: 40px;
@@ -33,14 +34,15 @@ nav.navbar-transparent{
     margin: 16px 10px;
     background-color: white;
 }
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
     color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover {
     color: rgb(158, 50, 50);
     border: 1px solid rgb(158, 50, 50);
     margin: -1px;
+    background: none;
 }
 
 .capa{
@@ -85,6 +87,25 @@ nav.navbar-transparent{
     padding: 20px 0px;
 }
 
+#recursos{
+    color: white;
+    padding: 20px 0px;
+}
+
+#recursos h3{
+    color: rgb(116, 173, 187);
+}
+
+footer{
+    background: black;
+    padding: 20px 0px;
+    position: relative;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 70px;
+    width: 40%;
+}
 h1{
     font-size: 80px;
     font-weight: 900;
@@ -97,9 +118,23 @@ h2{
 }
 
 h3{
+    font-size: 30px;
     font-weight: bold;
 }
 
-p{
-    font-size: 18px;
+#rodape h4{
+    color: rgba(170, 170, 170, 0.986);
+    font-size: 12px;
 }
+
+p{
+    font-size: 19px;
+}
+
+.item-rede-social{
+    margin: 10px;
+    float: left;
+    border-radius: 60%;
+    list-style-type: none;
+}
+
