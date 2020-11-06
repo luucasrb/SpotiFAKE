@@ -6,4 +6,14 @@ Spotify website reprodution, didactic purposes only.
 
 follow me on instagram @lucassrib
 
-### Disponível em https://luucasrb.github.io/SpotiFAKE.github.io/
+## Tecnologias Utilizadas 
+- HTML5
+- CSS3
+- Bootstrap 3
+- Git
+- GitHub
+- GitHub Pages
+
+### Disponível
+
+Acesse: **https://luucasrb.github.io/SpotiFAKE.github.io/**
