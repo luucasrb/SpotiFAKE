@@ -1,5 +1,4 @@
 ## SpotiFAKE 
----
 Reprodução do site do Spotify, com propósitos didáticos. 
 
 Spotify website reprodution, didactic purposes only.
@@ -15,5 +14,7 @@ Spotify website reprodution, didactic purposes only.
 ### Link Disponível
 
 Acesse: **https://luucasrb.github.io/SpotiFAKE.github.io/**
+
+---
 
 follow me on instagram @lucassrib
