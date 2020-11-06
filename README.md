@@ -17,4 +17,4 @@ Acesse: **https://luucasrb.github.io/SpotiFAKE.github.io/**
 
 ---
 
-follow me on instagram @lucassrib
+follow me on linkedin @luucasrb
